@@ -104,6 +104,27 @@ a:focus {
   outline: none;
 }
 
+
+@media (max-width: 768px) {
+  .testi_itemimg {
+    height: 150px !important;
+  }
+}
+
+/* For screens smaller than 480px (mobile phones) */
+@media (max-width: 480px) {
+  .testi_itemimg {
+    height: 100px !important;
+  }
+}
+
+/* For very small screens (less than 360px) */
+@media (max-width: 360px) {
+  .testi_itemimg {
+    height: 80px !important;
+  }
+}
+
 button:focus {
   outline: none;
   box-shadow: none;
